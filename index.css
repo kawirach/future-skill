@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mali", cursive;
+    background-color: rgb(255, 247, 237);
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+header, main, #footerContent {
+    padding: 0 2rem;
+    
+
+    @media (800px <= width) {
+        & {
+            padding: 2rem 14vw;
+
+        }
+    }
+
+    .fog {
+        
+        border-style: inset;
+        border-width : 8px; ;
+        border-color: #386c74;
+        background-size: cover;
+        width: 80%;
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #d5d5d5;
+    height: 80px;
+    
+}
+.name {
+    font-size: 60px;
+}
+ 
+a {
+    margin: 5px;
+}
+    
+        
+    
+  
+    

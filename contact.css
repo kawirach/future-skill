@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: "Mali", cursive;
+    background-color: rgba(255, 247, 237, 0.847);
+}
+
+html, body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, main, #footerContent {
+    padding: 0 2rem;
+
+    @media (1200px <= width) {
+        & {
+            padding: 2em 14vw;
+            
+            
+        
+        }
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #d5d5d5;
+    height: 80px;
+}
+
+a {
+    margin: 5px;
+}
+    
