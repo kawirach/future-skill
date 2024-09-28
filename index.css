@@ -2,6 +2,11 @@
     box-sizing: border-box;
     font-family: "Mali", cursive;
     background-color: rgb(255, 247, 237);
+    @media (800px <= width) {
+        & {
+            padding: rem 2vw;
+
+        }
 }
 
 html, body {
@@ -20,11 +25,7 @@ header, main, #footerContent {
     padding: 0 2rem;
     
 
-    @media (800px <= width) {
-        & {
-            padding: 2rem 14vw;
-
-        }
+  
     }
 
     .fog {
